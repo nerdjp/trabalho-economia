@@ -393,7 +393,7 @@ def main():
     automovel.lucro(True)
     print()
     print("### Tabelas por sistema: ")
-    imovel.print_all()
+    automovel.print_all()
     print()
 
     print("## Financiamento de um eletrodoméstico")
@@ -414,7 +414,7 @@ def main():
     eletrodomestico.lucro(True)
     print()
     print("### Tabelas por sistema: ")
-    imovel.print_all()
+    eletrodomestico.print_all()
     print()
 
     print("## Financiamento de um Jato (Bonús para criteiro E)")
@@ -435,7 +435,7 @@ def main():
     jato.lucro(True)
     print()
     print("### Tabelas por sistema: ")
-    imovel.print_all()
+    jato.print_all()
     print()
 
 
